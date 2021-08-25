@@ -1,12 +1,21 @@
 import React from "react";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { uuid } from "uuidv4";
 
 import TextEditor from "./TextEditor";
 
 function App() {
   return (
-    <>
-      <TextEditor />
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact>
+          <Redirect to={`/documents/${uuid()}`} />
+        </Route>
+        <Route path="/documents/:id">
+          <TextEditor />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
