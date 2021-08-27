@@ -5,7 +5,7 @@ require("dotenv").config();
 
 async function connect() {
   await mongoose.connect(
-    "mongodb+srv://Lucifer8729:LuciferMorningstar@docs.w8m7r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongodb+srv://Lucifer8729:uxL8n3sSlxjAy96N@document.w8m7r.mongodb.net/Documents?retryWrites=true&w=majority"
   );
 }
 connect();
