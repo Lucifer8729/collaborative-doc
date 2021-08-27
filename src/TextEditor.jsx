@@ -30,7 +30,7 @@ const TextEditor = () => {
   const [quill, setQuill] = useState();
 
   useEffect(() => {
-    const s = io("http://localhost:3001");
+    const s = io("https://collaborative-doc.herokuapp.com/");
     setSocket(s);
 
     return () => {
