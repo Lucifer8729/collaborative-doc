@@ -12,7 +12,7 @@ connect();
 
 const io = require("socket.io")(process.env.PORT || 3001, {
   cors: {
-    origin: "https://upbeat-carson-8fa682.netlify.app/",
+    origin: "https://collaborative-doc-cn-project-64-65-71.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
