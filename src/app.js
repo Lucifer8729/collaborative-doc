@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import { v4 } from "uuid";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+// import { v4 } from "uuid";
 
 import TextEditor from "./texteditor";
 
