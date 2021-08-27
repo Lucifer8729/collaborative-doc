@@ -42,4 +42,4 @@ async function findOrCreateDocument(id) {
   return await Document.create({ _id: id, data: defaultVaule });
 }
 
-console.log("server is running...");
+// console.log("server is running...");
