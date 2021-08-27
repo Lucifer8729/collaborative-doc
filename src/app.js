@@ -1,12 +1,12 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import { v4 } from "uuid";
 
 import TextEditor from "./texteditor";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Switch>
         <Route path="/" exact>
           <Redirect to={`/documents/${v4()}`} />
@@ -15,7 +15,7 @@ function App() {
           <TextEditor />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
