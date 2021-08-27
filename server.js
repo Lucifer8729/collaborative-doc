@@ -4,7 +4,9 @@ const Document = require("./Document");
 require("dotenv").config();
 
 async function connect() {
-  await mongoose.connect("mongodb://localhost/collaborative-doc");
+  await mongoose.connect(
+    "mongodb+srv://Lucifer8729:LuciferMorningstar@docs.w8m7r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+  );
 }
 connect();
 
