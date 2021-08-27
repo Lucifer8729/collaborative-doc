@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import { uuid } from "uuidv4";
+import { v4 } from "uuid";
 
 import TextEditor from "./texteditor";
 
@@ -9,7 +9,8 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact>
-          <Redirect to={`/documents/${uuid()}`} />
+          {/* <Redirect to={`/documents/${v4()}`} /> */}
+          <h1>hello</h1>
         </Route>
         <Route path="/documents/:id">
           <TextEditor />
