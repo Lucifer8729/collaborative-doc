@@ -1,12 +1,14 @@
 const mongoose = require("mongoose");
 const Document = require("./Document");
 
+require("dotenv").config();
+
 async function connect() {
   await mongoose.connect("mongodb://localhost/collaborative-doc");
 }
 connect();
 
-const io = require("socket.io")(3001, {
+const io = require("socket.io")(process.env.PORT || 3001, {
   cors: {
     origin: "http://localhost:3000",
     methods: ["GET", "POST"],
