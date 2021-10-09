@@ -30,11 +30,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -43,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://user-images.githubusercontent.com/72292326/136656848-46fae12a-8f70-401e-976a-0483806231b0.png)
+<img src=https://user-images.githubusercontent.com/72292326/136656848-46fae12a-8f70-401e-976a-0483806231b0.png />
 
 The Project “Multi User Collaborative Document” is based on the  idea of a Collaborative document workspace.Users along with their team members or different sets of user can work together on the same document through this tool. Now for a set of users to work on same document they require  a unique key which will let them access the unique shared document in which their other team members will also be contributing.The Document gets updated in real time basis so all the users working on a shared document can see what other contributors are writing and can edit it if necessary.
 
